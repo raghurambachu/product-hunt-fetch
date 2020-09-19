@@ -22,7 +22,7 @@ class ProductCategory extends React.Component {
         "Content-Type": "application/json",
         Authorization: bearer,
         Host: "api.producthunt.com",
-        Origin: "http://localhost:3000",
+        Origin: "https://producthuntfetch.netlify.app/",
       },
     })
       .then((res) => res.json())
