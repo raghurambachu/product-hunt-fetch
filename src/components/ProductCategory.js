@@ -27,7 +27,7 @@ class ProductCategory extends React.Component {
     })
       .then((res) => res.json())
       .then((res) => {
-        console.log(res.posts);
+        // console.log(res.posts);
         this.setState({ products: res.posts.slice(0, 10), loading: false });
       });
   }
